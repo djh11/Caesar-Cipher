@@ -1,5 +1,5 @@
 //caesar cipher program
-var alpha = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z];
+var alpha = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 var alphaCopy = [];
 
 //aware that libraries (ex: lodash) exist that do this
@@ -52,3 +52,4 @@ var main = function(newKey, messageToEncrypt){
     var decryptedMessage = Encrypt(messageToEncrypt, newAlpha);
     return decryptedMessage;
 }
+//test

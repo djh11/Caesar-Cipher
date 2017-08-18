@@ -1,0 +1,29 @@
+{
+  "name": "caesar",
+  "version": "1.0.0",
+  "description": "A basic caesar cipher written in JS",
+  "main": "caesar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack && node-sass ./scss -o ./css && exit 0",
+    "watch": "webpack --watch && node-sass --watch ./scss -o ./css",
+    "serve": "npm run watch & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djh11/Caesar-Cipher.git"
+  },
+  "author": "Dan Hanley <djhanley11@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djh11/Caesar-Cipher/issues"
+  },
+  "homepage": "https://github.com/djh11/Caesar-Cipher#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-latest": "^6.24.1",
+    "node-sass": "^4.5.3",
+    "webpack": "^3.5.5"
+  }
+}
